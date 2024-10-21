@@ -5,10 +5,10 @@ public class Test {
     public static void main(String[] args) {
         // Obj ob = new Obj(new Vector(50.0, 50.0), new Vector(-10.0, 25.0),new Vector(0,g), 5.0, 1.0);
         // Obj ob2 = new Obj(new Vector(30.0, 30.0), new Vector(5.0, 5.0), 5.0);
-        Obj[] obs = new Obj[100];
+        Obj[] obs = new Obj[50];
         // obs[0] = ob;
-        double[] rRange = { 2.0, 4.0 };
-        double[] vRange = { 40.0, 60.0 };
+        double[] rRange = { 1.0, 3.0 };
+        double[] vRange = { 10.0, 40.0 };
         double[] massRange = { 1.0, 5.0 };
         double[] aRange = { -9.81, -9.81 };
         genObs(obs, 100, rRange, vRange, massRange);
